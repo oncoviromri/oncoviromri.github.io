@@ -8,7 +8,6 @@ import { HomeComponent } from './home/home.component';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { ContactComponent } from './contact/contact.component';
-import { SoftwareComponent } from './software/software.component';
 import { ResearchComponent } from './research/research.component';
 
 @NgModule({
@@ -18,7 +17,6 @@ import { ResearchComponent } from './research/research.component';
     BsNavbarComponent,
     PublicationsComponent,
     ContactComponent,
-    SoftwareComponent,
     ResearchComponent
   ],
   imports: [
