@@ -1,0 +1,24 @@
+<nav class="navbar">
+  <div class="brand-title">
+    <a routerLink="/home">
+      <img class="logoUniversity" src="assets/images/tau_and_lab_logo.png">
+    </a>
+  </div>
+  <a (click)="clickBurger()" class="toggle-button">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </a>
+  <div [style.display]="this.showMenuTabs() ? 'flex' : 'none'" class="navbar-links">
+    <ul>
+      <li ><a (click)="clickBurger()" routerLink="home">Home</a></li>
+      <li ><a (click)="clickBurger()" routerLink="research">Research</a></li>
+      <li><a (click)="clickBurger()" routerLink="publications">Publications</a></li>
+      <li><a (click)="clickBurger()" routerLink="funding">Funding</a></li>
+      <li><a (click)="clickBurger()" routerLink="software">Open Science</a></li> 
+      <li><a (click)="clickBurger()" routerLink="team">The Team</a></li>
+      <li><a (click)="clickBurger()" routerLink="careers">Open Positions</a></li>
+      <li><a (click)="clickBurger()" routerLink="contact">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>

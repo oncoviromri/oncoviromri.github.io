@@ -1,0 +1,25 @@
+body{
+  padding-top: 7%;
+  background-color: #f2f9ff;
+}
+.publicTitle{
+  /*padding-top: 5%;*/
+}
+
+.card:hover{
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 800px) {
+  .publicTitle{
+    padding-top: 40%;
+  }
+}
+
+

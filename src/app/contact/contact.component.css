@@ -1,0 +1,49 @@
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-image: url("src/assets/images/tel_aviv_from_sky.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+
+/*!* contact *!*/
+.contact{background: transparent; padding:50px 0;}
+.contact-heading h3{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 374px;
+}
+
+
+img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 800px) {
+  .contactTitle {
+    padding-top: 40%;
+  }
+}
